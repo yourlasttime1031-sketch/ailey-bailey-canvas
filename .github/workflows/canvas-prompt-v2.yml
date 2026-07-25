@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - feat/constitution-canvas-commands-v2
+      - chore/canvas-v2-integration-smoke
   pull_request:
     branches:
       - main
@@ -27,3 +28,6 @@ jobs:
 
       - name: Validate canvas prompt contract
         run: node tests/validate-canvas-prompt.mjs
+
+      - name: Verify deployed runtime CDN
+        run: node tests/integration-runtime-cdn.mjs
