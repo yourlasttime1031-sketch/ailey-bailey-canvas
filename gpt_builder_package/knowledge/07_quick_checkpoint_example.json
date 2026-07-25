@@ -1,0 +1,46 @@
+{
+  "schema_version": "2.0",
+  "packet_type": "ailey_bailey_quick_checkpoint",
+  "checkpoint_id": "constitution-II03-close-example",
+  "saved_at": "YYYY-MM-DDTHH:MM:SS+09:00",
+  "course_id": "constitution_kimgeonho_2026",
+  "textbook_anchor": {
+    "title": "김건호 헌법 비헌기OX",
+    "edition": "2026"
+  },
+  "chat_unit_id": "헌법-11-II03-평등권-P104-108",
+  "current_topic": "평등권 판례 연결학습 종료 점검",
+  "source_range": {
+    "points": "104-108",
+    "pages": "455-503"
+  },
+  "completed_points": [
+    "104-108"
+  ],
+  "current_objective": "평등권 단원을 확정하고 자유권 POINT 109로 이동",
+  "mastery_summary": {
+    "status": "partial_or_confirmed_by_actual_save",
+    "note": "실제 저장 시 현재 채팅 근거로만 기록"
+  },
+  "active_weaknesses": [],
+  "unresolved_assessment": null,
+  "next_action": {
+    "chat_unit_id": "헌법-12-II04-생명·신체·형사절차-P109-126",
+    "start_point": 109,
+    "start_page": 504
+  },
+  "live_menu_bindings": {},
+  "canvas_state": {
+    "canvas_id": "actual-canvas-id",
+    "revision": 1,
+    "snapshot_id": "actual-snapshot-id"
+  },
+  "archive_pointer": {
+    "folder": "헌법/국민의 권리와 의무/평등권",
+    "archive_id": "actual-archive-id"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "value": "calculated-by-runtime"
+  }
+}
