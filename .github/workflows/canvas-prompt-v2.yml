@@ -1,0 +1,29 @@
+name: Canvas prompt v2 verification
+
+on:
+  push:
+    branches:
+      - main
+      - feat/constitution-canvas-commands-v2
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Validate canvas prompt contract
+        run: node tests/validate-canvas-prompt.mjs
